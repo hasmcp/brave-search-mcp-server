@@ -1,9 +1,9 @@
 {
   "name": "braveSearch",
   "description": "",
-  "instructions": "",
+  "instructions": "## Brave Search MCP Server\n\nSearch the Web for various types of data via the Brave Search Official API.",
   "requestHeadersProxyEnabled": false,
-  "version": 11,
+  "version": 12,
   "gitProvider": "github",
   "gitRepoFullName": "hasmcp/brave-search-mcp-server",
   "providers": [
@@ -12,7 +12,7 @@
       "visibilityType": 2,
       "baseURL": "https://api.search.brave.com/res/v1",
       "documentURL": "https://brave.com/search/api/",
-      "iconURL": "https://brave.com/static-assets/images/brave-logo-sans-text.svg",
+      "iconURL": "https://icons.hasmcp.com/icons/providers/05iOYhvlxvu/icon.png",
       "name": "braveSearch",
       "description": "## Brave Search API provider for MCP Server\n\nGet a Brave Search API Key from https://brave.com/search/api/. Create variable called `API_SEARCH_BRAVE_COM_API_KEY` and assign the Braver Search API Key as secret.",
       "tools": [

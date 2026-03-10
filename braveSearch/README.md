@@ -1,6 +1,8 @@
 # braveSearch
 
+## Brave Search MCP Server
 
+Search the Web for various types of data via the Brave Search Official API.
 
 ## Providers
 

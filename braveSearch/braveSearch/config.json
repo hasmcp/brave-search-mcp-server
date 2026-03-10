@@ -4,7 +4,7 @@
   "instructions": "Brave Search MCP Server\n\nUse this server to search the Web for various types of data via the Brave Search API.",
   "baseURL": "https://api.search.brave.com/res/v1",
   "documentURL": "https://brave.com/search/api/",
-  "iconURL": "https://brave.com/static-assets/images/brave-logo-sans-text.svg",
+  "iconURL": "https://icons.hasmcp.com/icons/providers/05iOYhvlxvu/icon.png",
   "secretPrefix": "API_SEARCH_BRAVE_COM",
   "verificationStatus": 2,
   "apiType": 1,
