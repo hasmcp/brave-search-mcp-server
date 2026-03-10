@@ -3,7 +3,7 @@
   "description": "",
   "instructions": "## Brave Search MCP Server\n\nSearch the Web for various types of data via the Brave Search Official API.",
   "requestHeadersProxyEnabled": false,
-  "version": 12,
+  "version": 13,
   "gitProvider": "github",
   "gitRepoFullName": "hasmcp/brave-search-mcp-server",
   "providers": [
