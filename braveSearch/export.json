@@ -3,7 +3,7 @@
   "description": "",
   "instructions": "",
   "requestHeadersProxyEnabled": false,
-  "version": 10,
+  "version": 11,
   "gitProvider": "github",
   "gitRepoFullName": "hasmcp/brave-search-mcp-server",
   "providers": [
