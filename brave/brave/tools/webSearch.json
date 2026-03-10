@@ -1,0 +1,43 @@
+{
+  "name": "webSearch",
+  "title": "Search Web",
+  "description": "Performs a web search using Brave Search API.",
+  "method": 1,
+  "path": "/web/search",
+  "pathArgsJSONSchema": null,
+  "queryArgsJSONSchema": {
+    "type": "object",
+    "properties": {
+      "q": {
+        "description": "Search terms (max 400 chars, 50 words)",
+        "type": "string"
+      }
+    },
+    "required": [
+      "q"
+    ]
+  },
+  "reqBodyJSONSchema": null,
+  "headers": [
+    {
+      "Key": "X-Subscription-Token",
+      "Value": "${API_SEARCH_BRAVE_COM_API_KEY}"
+    },
+    {
+      "Key": "Accept",
+      "Value": "application/json"
+    }
+  ],
+  "interceptors": [
+    {
+      "purpose": 1,
+      "engine": 1,
+      "ioType": 2,
+      "name": "onlyWeb",
+      "code": "[videos.results, web.results][] | [].{url: url, title: title, description: description}"
+    }
+  ],
+  "requiredVariables": [
+    "API_SEARCH_BRAVE_COM_API_KEY"
+  ]
+}

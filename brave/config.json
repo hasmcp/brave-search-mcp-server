@@ -1,0 +1,7 @@
+{
+  "instructions": "## Brave Search MCP Server\n\nSearch the Web for various types of data via the Brave Search Official API.",
+  "name": "brave",
+  "requestHeadersProxyEnabled": false,
+  "version": 14,
+  "visibilityType": 2
+}
